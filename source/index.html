@@ -5,8 +5,103 @@
     <title>HTML Academy: Мишка Главная</title>
   </head>
   <body>
-    <header>
-      <nav></nav>
+    <header class="header-page">
+      <nav class="header-page__nav header-nav">
+        <div class="header-nav__logo">
+          <img src="http://placehold.it/86x35" alt="Лого интернет магазина Мишка">
+        </div>
+        <button class="header-nav__toggle">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <ul class="header-nav__menu-list header-menu-list">
+          <li class="header-menu-list__item">
+            <a class="header-menu-list__link" href="#">Каталог товаров</a>
+          </li>
+          <li class="header-menu-list__item">
+            <a class="header-menu-list__link" href="#">Вязание на заказ</a>
+          </li>
+        </ul>
+        <ul class="header-nav__user-list header-user-list">
+          <li class="header-user-list__item">
+            <a class="header-user-list__link" href="#">Поиск по сайту</a>
+          </li>
+          <li class="header-user-list__item">
+            <a class="header-user-list__link" href="#">Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <main class="main-page">
+      <h1 class="visually-hidden">"Мишка" - магазин аксессуаров и игрушек ручной работы</h1>
+      <section class="main-page__catalog catalog">
+        <h2 class="catalog__title">Милые&nbsp;штуки ручной работы&nbsp;для&nbsp;дома</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <a class="catalog__link" href="">Предметы <br>интерьера</a>
+          </li>
+          <li class="catalog__item">
+            <a class="catalog__link" href="">Детские<br>игрушки</a>
+          </li>
+        </ul>
+      </section>
+      <section class="product-of-week">
+        <h2 class="product-of-week__title">Вязаные корзинки</h2>
+        <b class="product-of-week__rating">Товар Недели</b>
+        <p class="product-of-week__promo">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах</p>
+        <div class="product-of-week__description">
+          <table class="product-description">
+            <tr class="product-description__set">
+              <td class="product-description__sort">Цвет:</td>
+              <td class="product-description__value">«Тиффани»/серый</td>
+            </tr>
+            <tr class="product-description__set">
+              <td class="product-description__sort">Диаметр:</td>
+              <td class="product-description__value">25 см</td>
+            </tr>
+            <tr class="product-description__set">
+              <td class="product-description__sort">Высота:</td>
+              <td class="product-description__value">15 см</td>
+            </tr>
+          </table>
+          <div class="product-of-week__picture">
+            <img class="product-of-week__image" src="http://placehold.it/260x315" alt="Вязаные корзинки">
+          </div>
+        </div>
+        <div class="product-of-week__price">Цена: 990 руб.</div>
+        <a href="#" class="product-of-week__order">Заказать</a>
+      </section>
+      <section class="product-features">
+        <h2 class="product-features__title">Коротко о нас:</h2>
+        <ul class="product-features__list">
+          <li class="product-features__item">
+            <p class="product-features__description">Экологически
+                чистые материалы</p>
+          </li>
+          <li class="product-features__item">
+            <p class="product-features__description">Скандинавский стиль
+                по российской цене</p>
+          </li>
+          <li class="product-features__item">
+            <p class="product-features__description">Увеличивает лайки
+                на фотографиях</p>
+          </li>
+          <li class="product-features__item">
+            <p class="product-features__description">Связано вручную с
+                любовью и умилением</p>
+          </li>
+          <li class="product-features__item">
+            <p class="product-features__description">Поддержка отечественного производителя</p>
+          </li>
+          <li class="product-features__item">
+            <p class="product-features__description">Поставляется в
+                подарочной упаковке</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+
+    </footer>
   </body>
 </html>
