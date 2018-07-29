@@ -31,8 +31,76 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main-page form-page">
+      <section class="order">
+        <h1 class="order__title">Вязание на заказ</h1>
+        <p class="order__description">
+            Мы будем рады воплотить в жизнь ваши пожелания!
+            Заполните простую форму заказа и мы свяжемся с вами,
+            чтобы уточнить детали.
+        </p>
+        <form class="order__form" action="#">
 
+          <h2 class="order__form-title order__form-title--type">Тип</h2>
+
+          <input type="radio" name="product-type" id="product-type-accessory">
+          <label for="product-type-accessory">Аксессуар для  интерьера</label>
+
+          <input type="radio" name="product-type" id="product-type-toy">
+          <label for="product-type-toy">Детская игрушка</label>
+
+          <h2 class="order__form-title order__form-title--colour">Цвет</h2>
+
+          <label for="white">Белый</label>
+          <input type="checkbox" name="white" id="white" checked>
+
+          <label for="gray">Серый</label>
+          <input type="checkbox" name="gray" id="gray"  checked>
+
+          <label for="tiffany">«Тиффани»</label>
+          <input type="checkbox" name="tiffany" id="tiffany">
+
+          <label for="black">Черный</label>
+          <input type="checkbox" name="black" id="black">
+
+          <label for="pink">Розовый</label>
+          <input type="checkbox" name="pink" id="pink">
+
+          <label for="orange">Оранжевый</label>
+          <input type="checkbox" name="orange" id="orange">
+
+          <h2 class="order__form-title order__form-title--names">ФИО</h2>
+
+          <label for="name">Имя:</label>
+          <input type="text" name="name" id="name" placeholder="Введите ваше имя*">
+
+          <label for="surname">Фамилия:</label>
+          <input type="text" name="surname" id="surname"  placeholder="Укажите фамилию*">
+
+          <label for="middle-name">Отчество:</label>
+          <input type="text" name="middle-name" id="middle-name" placeholder="Отчество, если желаете">
+
+          <h2 class="order__form-title order__form-title--phone">тел</h2>
+
+          <label for="tel visually-hidden">Телефон</label>
+          <input type="tel" name="tel" id="tel" placeholder="+7 ХХХ ХХ ХХ*">
+
+          <h2 class="order__form-title order__form-title--email">E-mail</h2>
+
+          <label for="email visually-hidden">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Ваш Email*">
+
+          <h2 class="order__form-title order__form-title--add">Доп</h2>
+
+          <textarea name="" id="" cols="30" rows="10" placeholder="Опишите все ваши
+          пожелания к заказу"></textarea>
+
+          <div>*Поля обязательны для заполнения</div>
+
+          <input type="submit" value="ОТПРАВИТЬ ЗАКАЗ">
+
+        </form>
+      </section>
     </main>
     <footer class="footer-page">
       <ul class="footer-page__social-list social-list">
