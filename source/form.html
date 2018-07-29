@@ -33,7 +33,9 @@
     </header>
     <main class="main-page form-page">
       <section class="order">
+
         <h1 class="order__title">Вязание на заказ</h1>
+
         <p class="order__description">
             Мы будем рады воплотить в жизнь ваши пожелания!
             Заполните простую форму заказа и мы свяжемся с вами,
@@ -82,20 +84,20 @@
 
           <h2 class="order__form-title order__form-title--phone">тел</h2>
 
-          <label for="tel visually-hidden">Телефон</label>
+          <label class="visually-hidden" for="tel">Телефон</label>
           <input type="tel" name="tel" id="tel" placeholder="+7 ХХХ ХХ ХХ*">
 
           <h2 class="order__form-title order__form-title--email">E-mail</h2>
 
-          <label for="email visually-hidden">E-mail</label>
+          <label class="visually-hidden" for="email">E-mail</label>
           <input type="email" name="email" id="email" placeholder="Ваш Email*">
 
           <h2 class="order__form-title order__form-title--add">Доп</h2>
 
-          <textarea name="" id="" cols="30" rows="10" placeholder="Опишите все ваши
+          <textarea class="order__form-add" name="add" id="add" cols="30" rows="10" placeholder="Опишите все ваши
           пожелания к заказу"></textarea>
 
-          <div>*Поля обязательны для заполнения</div>
+          <div class="order__description-required">*Поля обязательны для заполнения</div>
 
           <input type="submit" value="ОТПРАВИТЬ ЗАКАЗ">
 
