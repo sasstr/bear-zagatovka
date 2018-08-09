@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка Главная</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="header-page">
@@ -25,6 +26,13 @@
         </ul>
         <ul class="header-nav__user-list header-user-list">
           <li class="header-user-list__item">
+            <!-- Наверное правильно сделать разметку так:
+              <form class="header-user-list__search search" action="https://echo.htmlacademy.ru" method="GET">
+                <label class="visually-hidden" for="search"></label>
+                <input type="text" name="search" id="" placeholder="Поиск по сайту">
+                <button type="submit"><span class="visually-hidden">Найти</span></button>
+              </form>
+            -->
             <a class="header-user-list__link" href="#">Поиск по сайту</a>
           </li>
           <li class="header-user-list__item">
@@ -41,7 +49,7 @@
           <li class="catalog__item">
             <a class="catalog__link" href="">Предметы <br>интерьера</a>
           </li>
-          <li class="catalog__item">
+          <li class="catalog__item catalog__item--dark-green-colour">
             <a class="catalog__link" href="">Детские<br>игрушки</a>
           </li>
         </ul>
@@ -66,7 +74,7 @@
             </tr>
           </table>
           <div class="product-of-week__picture">
-            <img class="product-of-week__image" src="http://placehold.it/260x315" alt="Вязаные корзинки">
+            <img class="product-of-week__image" src="img/triple-set-mobile@1x.jpg" alt="Вязаные корзинки">
           </div>
         </div>
         <div class="product-of-week__price">Цена: 990 руб.</div>
@@ -94,7 +102,7 @@
           <li class="product-features__item">
             <p class="product-features__description">Поддержка отечественного производителя</p>
           </li>
-          <li class="product-features__item">
+          <li class="product-features__item product-features__item--last">
             <p class="product-features__description">Поставляется в
                 подарочной упаковке</p>
           </li>

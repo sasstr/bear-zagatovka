@@ -1,0 +1,14 @@
+.header-menu-list__link {
+  color: #000000;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 76px;
+}
+
+.header-menu-list__item {
+  @include reset-ul;
+  width: 320px;
+  min-height: 79px;
+}
