@@ -19,6 +19,13 @@
   font-size: 17px;
   font-weight: 700;
   line-height: 20px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+  }
 }
 
 .product-features__item {

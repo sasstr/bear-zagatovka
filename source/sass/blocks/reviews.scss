@@ -34,4 +34,50 @@
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
+  font-style: normal;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.reviews__contact {
+  font-style: normal;
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 36px;
+}
+
+.reviews__control-next,
+.reviews__control-prev {
+  width: 260px;
+  height: 52px;
+  border: 1px solid #ececec;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.reviews__controls {
+  margin-bottom: 70px;
+}
+
+.reviews__button {
+  color: #444444;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 260px;
+  min-height: 12px;
+  border: 2px solid #444444;
+  background-color: #ffffff;
+  padding-left: 85px;
+  padding-right: 84px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  display: block;
+  margin-bottom: 30px;
 }
