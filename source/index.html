@@ -11,12 +11,12 @@
         <nav class="header-page__nav header-nav">
           <div class="header-nav__logo">
             <a class="header-nav__logo-link">
-              <img src="http://placehold.it/86x35" alt="Лого интернет магазина Мишка">
+              <img class="header-nav__img" src="img/logo-mobile.svg" width="86" height="35" alt="Лого интернет магазина Мишка">
             </a>
+            <button class="header-nav__toggle">
+              <span class="visually-hidden">Открыть меню</span>
+            </button>
           </div>
-          <button class="header-nav__toggle">
-            <span class="visually-hidden">Открыть меню</span>
-          </button>
           <ul class="header-nav__menu-list header-menu-list">
             <li class="header-menu-list__item">
               <a class="header-menu-list__link" href="catalog.html">Каталог товаров</a>
@@ -124,10 +124,10 @@
             </cite>
           </blockquote>
           <div class="reviews__controls">
-            <button class="reviews__control-prev">
+            <button class="reviews__btn-control reviews__btn-control--prev">
               <span class="visually-hidden">Предыдущий отзыв</span>
             </button>
-            <button class="reviews__control-next">
+            <button class="reviews__btn-control reviews__btn-control--next">
               <span class="visually-hidden">Следующий отзыв</span>
             </button>
           </div>
@@ -153,18 +153,18 @@
     <footer class="footer-page">
       <ul class="footer-page__social-list social-list">
         <li class="social-list__item">
-          <a class="social-list__link" href="#"><span class="visually-hidden">Инстаграм</span></a>
+          <a class="social-list__link social-list__link--insta" href="#"><span class="visually-hidden">Инстаграм</span></a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="#"><span class="visually-hidden">Фэйсбук</span></a>
+          <a class="social-list__link social-list__link--fb" href="#"><span class="visually-hidden">Фэйсбук</span></a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="#"><span class="visually-hidden">Твиттер</span></a>
+          <a class="social-list__link social-list__link--tw" href="#"><span class="visually-hidden">Твиттер</span></a>
         </li>
       </ul>
       <a class="copyright" href="#">
         <b class="copyright__text">Разработано</b>
-        <img src="http://placehold.it/27x34" alt="Логотип HTMLAcademy">
+        <img class="copyright__img" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип HTMLAcademy">
       </a>
     </footer>
   </body>

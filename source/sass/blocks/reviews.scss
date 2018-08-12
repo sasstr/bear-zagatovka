@@ -47,19 +47,32 @@
   margin-bottom: 36px;
 }
 
-.reviews__control-next,
-.reviews__control-prev {
-  width: 260px;
+.reviews__btn-control {
+  width: 130px;
   height: 52px;
   border: 1px solid #ececec;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
   display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 50px 26px;
+  cursor: pointer;
+
+  &--prev {
+    background-image: url("../img/icon-left-arrow.svg");
+    background-position: 38px 13px;
+  }
+
+  &--next {
+    background-image: url("../img/icon-right-arrow.svg");
+    background-position: 38px 13px;
+  }
 }
 
 .reviews__controls {
   margin-bottom: 70px;
+  font-size: 0;
 }
 
 .reviews__button {
@@ -74,10 +87,21 @@
   border: 2px solid #444444;
   background-color: #ffffff;
   padding-left: 85px;
-  padding-right: 84px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-left: 30px;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 95px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 95px;
+    left: 0;
+    width: 320px;
+    height: 6px;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg-zigzag-line.svg");
+  }
 }

@@ -26,6 +26,54 @@
     content: "";
     background-repeat: no-repeat;
   }
+
+  &--ecolog::before {
+    top: -60px;
+    left: 38px;
+    width: 32px;
+    height: 37px;
+    background-image: url("../img/icon-feature-flower.svg");
+  }
+
+  &--skandinav::before {
+    top: -60px;
+    left: 30px;
+    width: 47px;
+    height: 27px;
+    background-image: url("../img/icon-feature-money.svg");
+  }
+
+  &--more-likes::before {
+    top: -60px;
+    left: 37px;
+    width: 47px;
+    height: 27px;
+    background-image: url("../img/icon-feature-heart.svg");
+  }
+
+  &--handmade::before {
+    top: -60px;
+    left: 33px;
+    width: 35px;
+    height: 34px;
+    background-image: url("../img/icon-feature-ball.svg");
+  }
+
+  &--support::before {
+    top: -60px;
+    left: 24px;
+    width: 55px;
+    height: 23px;
+    background-image: url("../img/icon-feature-rocket.svg");
+  }
+
+  &--gift-packed::before {
+    top: -60px;
+    left: 33px;
+    width: 33px;
+    height: 32px;
+    background-image: url("../img/icon-feature-gift.svg");
+  }
 }
 
 .product-features__item {
