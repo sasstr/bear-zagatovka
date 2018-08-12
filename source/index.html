@@ -27,17 +27,17 @@
           </ul>
           <ul class="header-nav__user-list header-user-list">
             <li class="header-user-list__item">
-              <!-- Наверное правильно сделать разметку так: ( но её будет сложно стилизовать )
+              <!-- Наверное правильно сделать разметку так: ( но её наверное сложно будет стилизовать )
                 <form class="header-user-list__search search" action="https://echo.htmlacademy.ru" method="GET">
                   <label class="visually-hidden" for="search">Поиск по сайту</label>
                   <input type="text" name="search" id="" placeholder="Поиск по сайту">
                   <button type="submit"><span class="visually-hidden">Найти</span></button>
-                </form>
+                </form>  fill="#231F20"
               -->
               <a class="header-user-list__link" href="#">Поиск по сайту</a>
             </li>
             <li class="header-user-list__item">
-              <a class="header-user-list__link" href="#">Корзина: пока пуста</a>
+              <a class="header-user-list__link">Корзина: пока пуста</a>
             </li>
           </ul>
         </nav>
@@ -50,10 +50,10 @@
           <h2 class="catalog__title">Милые&nbsp;штуки ручной работы&nbsp;для&nbsp;дома</h2>
           <ul class="catalog__list">
             <li class="catalog__item">
-              <a class="catalog__link" href="">Предметы <br>интерьера</a>
+              <a class="catalog__link catalog__link--interior-items" href="">Предметы <br>интерьера</a>
             </li>
             <li class="catalog__item catalog__item--dark-green-colour">
-              <a class="catalog__link" href="">Детские<br>игрушки</a>
+              <a class="catalog__link  catalog__link--toys" href="">Детские<br>игрушки</a>
             </li>
           </ul>
         </section>
@@ -167,5 +167,21 @@
         <img class="copyright__img" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип HTMLAcademy">
       </a>
     </footer>
+    <section class="modal-order">
+      <h2  class="modal-order__title">Добавить  в корзину</h2>
+      <p class="modal-order__size">Выберите размер:</p>
+      <ul class="modal-order__list">
+        <li class="modal-order__item">
+          <button class="modal-order__size" aria-label="Выбрать размер Small">S</button>
+        </li>
+        <li class="modal-order__item">
+          <button class="modal-order__size" aria-label="Выбрать размер Middle">M</button>
+        </li>
+        <li class="modal-order__item">
+          <button class="modal-order__size" aria-label="Выбрать размер Large">L</button>
+        </li>
+      </ul>
+      <button class="modal-order__add" aria-label="Добавить товар в корзину">Добавить</button>
+    </section>
   </body>
 </html>

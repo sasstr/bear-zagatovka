@@ -44,4 +44,31 @@
   padding-left: 29px;
   padding-top: 30px;
   display: block;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+  }
+
+  &--interior-items::before {
+    width: 40px;
+    height: 62px;
+    top: 23px;
+    left: 244px;
+    opacity: 0.5;
+    background-color: #63d1bb;
+    background-image: url("../img/icon-interior.svg");
+  }
+
+  &--toys::before {
+    width: 60px;
+    height: 60px;
+    top: 21px;
+    left: 223px;
+    opacity: 0.5;
+    background-color: #20c5af;
+    background-image: url("../img/icon-toy.svg");
+  }
 }
