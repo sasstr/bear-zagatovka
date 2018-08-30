@@ -4,6 +4,18 @@
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
+  margin-left: 91px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 6px;
+    left: -57px;
+    width: 32px;
+    height: 28px;
+    background-image: url("../img/icon-video.svg");
+  }
 }
 
 .production__description {
@@ -12,6 +24,9 @@
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
+  width: 183px;
+  min-height: 109px;
+  margin-left: 34px;
 }
 
 .production__link {
@@ -21,4 +36,23 @@
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
+}
+
+.production__link-order {
+  color: #444444;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  width: 192px;
+  min-height: 52px;
+  border: 2px solid #444444;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  padding-left: 26px;
+  margin-bottom: 91px;
+  margin-left: 34px;
+  display: block;
 }
