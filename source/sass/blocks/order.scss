@@ -23,6 +23,27 @@
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 198px;
+    height: 1px;
+    top: 6px;
+    left: 62px;
+    background-color: #62d1ba;
+  }
+
+  &--email::before {
+    position: absolute;
+    content: "";
+    width: 179px;
+    height: 1px;
+    top: 6px;
+    left: 81px;
+    background-color: #62d1ba;
+  }
 }
 
 .order__form-label {
@@ -50,6 +71,40 @@
 .order__form-block {
   display: flex;
   position: relative;
+
+  &--name,
+  &--surname,
+  &--middle-name {
+    flex-direction: column;
+  }
+}
+
+.order__form-input {
+  color: rgba(68, 68, 68, 0.3);
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 260px;
+  height: 52px;
+  box-shadow: inset 0 -2px 0 #000000;
+  background-color: #ffffff;
+  border: none;
+}
+
+.order__form-add {
+  color: rgba(68, 68, 68, 0.3);
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  resize: none;
+  padding-right: 80px;
+  width: 260px;
+  height: 142px;
+  box-shadow: inset 0 -2px 0 #000000;
+  border: 2px solid #444444;
+  background-color: #ffffff;
 }
 
 .order__form-input-radio {
@@ -128,4 +183,18 @@
   margin-left: 63px;
   margin-bottom: 30px;
   padding-top: 12px;
+}
+
+.order__btn-submit {
+  color: #444444;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  border: 2px solid #444444;
+  background-color: #ffffff;
+  padding-left: 47px;
+  padding-right: 47px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
