@@ -25,6 +25,7 @@
   line-height: 16px;
   text-transform: uppercase;
   position: relative;
+  margin-bottom: 27px;
 
   &::before {
     position: absolute;
@@ -64,6 +65,7 @@
 .order__form-wrapper {
   display: flex;
   flex-direction: column;
+  margin-bottom: 34px;
 }
 
 .order__description-required {
@@ -77,6 +79,7 @@
 .order__form-block {
   display: flex;
   position: relative;
+  margin-bottom: 25px;
 
   &--name,
   &--surname,
@@ -121,7 +124,7 @@
   &--accessory:checked ~ .order__form-label--radio::before {
     position: absolute;
     content: "";
-    top: 0;
+    top: -10px;
     left: 0;
     width: 40px;
     height: 40px;
@@ -136,7 +139,7 @@
   &--accessory ~ .order__form-label--radio::before {
     position: absolute;
     content: "";
-    top: 0;
+    top: -10px;
     left: 0;
     width: 40px;
     height: 40px;
