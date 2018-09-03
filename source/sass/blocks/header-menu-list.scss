@@ -4,14 +4,16 @@
 
 .header-menu-list__link {
   color: #000000;
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
   padding-left: 46px;
+  padding-top: 32px;
+  display: inline-block;
 }
 
 .header-menu-list__item {
   width: 320px;
   min-height: 79px;
+  box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
 }
