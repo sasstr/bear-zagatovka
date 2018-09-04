@@ -69,6 +69,31 @@
   flex-direction: column;
   margin-bottom: 34px;
   margin-left: 30px;
+  position: relative;
+
+  &--tel::before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    right: 32px;
+    background-image: url("../img/icon-phone.svg");
+    background-repeat: no-repeat;
+    opacity: 0.2;
+  }
+
+  &--email::before {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 26px;
+    top: 10px;
+    right: 38px;
+    background-image: url("../img/icon-mail.svg");
+    background-repeat: no-repeat;
+    opacity: 0.2;
+  }
 }
 
 .order__description-required {
