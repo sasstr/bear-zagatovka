@@ -1,6 +1,7 @@
 .contacts__wrapper {
   margin: 0 auto;
   width: 320px;
+  margin-bottom: 42px;
 }
 
 .contacts__title {
@@ -9,7 +10,10 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
+  margin: 0;
+  padding: 0;
   margin-left: 29px;
+  margin-bottom: 42px;
 }
 
 .contacts__email {
@@ -18,7 +22,10 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
+  margin: 0;
+  padding: 0;
   margin-left: 29px;
+  margin-bottom: 23px;
 }
 
 .contacts__address {
@@ -27,6 +34,8 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
+  margin: 0;
+  padding: 0;
   margin-left: 29px;
 }
 
