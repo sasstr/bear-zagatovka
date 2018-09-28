@@ -1,15 +1,16 @@
-.header-user-list {
+.header-menu {
   @include reset-ul;
 }
 
-.header-user-list__link {
+.header-menu__link {
   color: #000000;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
   font-weight: 700;
   line-height: 24px;
-  padding-left: 46px;
+  padding-left: 76px;
   padding-top: 32px;
   display: inline-block;
+  position: relative;
 
   &--search::before {
     position: absolute;
@@ -17,7 +18,7 @@
     width: 18px;
     height: 18px;
     top: 31px;
-    left: 2px;
+    left: 32px;
     background-image: url("../img/icon-search.svg");
     background-repeat: no-repeat;
     opacity: 0.2;
@@ -29,16 +30,15 @@
     width: 21px;
     height: 18px;
     top: 31px;
-    left: 0;
+    left: 30px;
     background-image: url("../img/icon-cart.svg");
     background-repeat: no-repeat;
     opacity: 0.2;
   }
 }
 
-.header-user-list__item {
+.header-menu__item {
   width: 320px;
   min-height: 79px;
-  position: relative;
   box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
 }

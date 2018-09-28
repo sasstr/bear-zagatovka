@@ -1,4 +1,8 @@
-.order__title {
+.order__fieldset {
+  border: none;
+}
+
+/* .order__title {
   color: #231f20;
   font-size: 27px;
   font-weight: 700;
@@ -7,7 +11,7 @@
   padding-top: 76px;
   min-height: 177px;
   background-color: #f1f1f1;
-}
+} */
 
 .order__description {
   color: #444444;
@@ -19,7 +23,7 @@
   width: 245px;
 }
 
-.order__form-title {
+.order__title {
   color: #63d1bb;
   font-size: 17px;
   font-weight: 700;
@@ -54,7 +58,7 @@
   }
 }
 
-.order__form-label {
+.order__label {
   color: #000000;
   font-weight: 700;
 
@@ -105,7 +109,7 @@
   margin-left: 30px;
 }
 
-.order__form-block {
+.order__block {
   display: flex;
   position: relative;
   margin-bottom: 25px;
@@ -147,11 +151,11 @@
   margin-bottom: 18px;
 }
 
-.order__form-input-radio {
+.order__radio {
   position: relative;
 
-  &--type-toy:checked ~ .order__form-label--radio::before,
-  &--accessory:checked ~ .order__form-label--radio::before {
+  &:checked ~ .order__label::before,
+  &:checked ~ .order__label::before {
     position: absolute;
     content: "";
     top: -10px;
@@ -160,35 +164,34 @@
     height: 40px;
     border: solid 2px #444444;
     border-radius: 50%;
-    box-shadow: inset 0 0 0 7px #ffffff,
+    box-shadow: inset 0 0 0 8px #ffffff,
       inset 0 0 0 18px #62d1ba;
-    cursor: pointer;
-  }
-
-  &--type-toy ~ .order__form-label--radio::before,
-  &--accessory ~ .order__form-label--radio::before {
-    position: absolute;
-    content: "";
-    top: -10px;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #444444;
-    background-color: #ffffff;
-    border-radius: 50%;
     cursor: pointer;
   }
 }
 
-.order__form-input-checkbox {
+.order__radio ~ .order__label::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #444444;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.order__checkbox {
   position: relative;
 
-  &--white ~ .order__form-label--white::before,
-  &--gray ~ .order__form-label--gray::before,
-  &--tiffany ~ .order__form-label--tiffany::before,
-  &--black ~ .order__form-label--black::before,
-  &--pink ~ .order__form-label--pink::before,
-  &--orange ~ .order__form-label--orange::before {
+  &--white ~ .order__label--white::before,
+  &--gray ~ .order__label--gray::before,
+  &--tiffany ~ .order__label--tiffany::before,
+  &--black ~ .order__label--black::before,
+  &--pink ~ .order__label--pink::before,
+  &--orange ~ .order__label--orange::before {
     position: absolute;
     content: "";
     top: 0;
@@ -199,12 +202,12 @@
     cursor: pointer;
   }
 
-  &--white:checked ~ .order__form-label--white::before,
-  &--gray:checked ~ .order__form-label--gray::before,
-  &--tiffany:checked ~ .order__form-label--tiffany::before,
-  &--black:checked ~ .order__form-label--black::before,
-  &--pink:checked ~ .order__form-label--pink::before,
-  &--orange:checked ~ .order__form-label--orange::before {
+  &--white:checked ~ .order__label--white::before,
+  &--gray:checked ~ .order__label--gray::before,
+  &--tiffany:checked ~ .order__label--tiffany::before,
+  &--black:checked ~ .order__label--black::before,
+  &--pink:checked ~ .order__label--pink::before,
+  &--orange:checked ~ .order__label--orange::before {
     position: absolute;
     content: "";
     top: 0;
@@ -219,7 +222,7 @@
   }
 }
 
-.order__form-label--checkbox {
+.order__label--checkbox {
   margin-left: 63px;
   margin-bottom: 30px;
   padding-top: 12px;

@@ -1,4 +1,4 @@
-.modal-order {
+.modal {
   margin: 0 auto;
   width: 320px;
   min-height: 336px;
@@ -6,7 +6,7 @@
   border: 1px solid #c6c6c6;
 }
 
-.modal-order__title {
+.modal__title {
   width: 148px;
   min-height: 50px;
   color: #000000;
@@ -22,7 +22,7 @@
   margin-left: 89px;
 }
 
-.modal-order__select-size {
+.modal__select-size {
   color: #444444;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
@@ -34,7 +34,7 @@
   text-align: center;
 }
 
-.modal-order__list {
+.modal__list {
   display: flex;
   justify-content: center;
 
@@ -42,7 +42,7 @@
   margin-bottom: 31px;
 }
 
-.modal-order__size {
+.modal__size {
   color: #444444;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
@@ -65,7 +65,7 @@
   }
 }
 
-.modal-order__add {
+.modal__add {
   color: #ffffff;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;

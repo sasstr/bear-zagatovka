@@ -1,4 +1,4 @@
-.product-features__title {
+.features__title {
   color: #000000;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 25px;
@@ -8,12 +8,12 @@
   margin-bottom: 88px;
 }
 
-.product-features__list {
+.features__list {
   @include reset-ul;
   margin-left: 30px;
 }
 
-.product-features__description {
+.features__item {
   color: #000000;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
@@ -27,7 +27,7 @@
     background-repeat: no-repeat;
   }
 
-  &--ecolog::before {
+  &--ecology::before {
     top: -60px;
     left: 38px;
     width: 32px;
@@ -35,7 +35,7 @@
     background-image: url("../img/icon-feature-flower.svg");
   }
 
-  &--skandinav::before {
+  &--nordic::before {
     top: -60px;
     left: 30px;
     width: 47px;
@@ -76,7 +76,7 @@
   }
 }
 
-.product-features__item {
+.features__item {
   width: 250px;
   margin-bottom: 85px;
 

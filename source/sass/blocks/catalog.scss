@@ -33,7 +33,7 @@
 
   @include reset-ul;
 
-  &--dark-green-colour {
+  &--darkgreen {
     background-color: #56c3b2;
   }
 }
@@ -47,6 +47,7 @@
   padding-top: 30px;
   display: block;
   position: relative;
+  width: 110px;
 
   &::before {
     position: absolute;
