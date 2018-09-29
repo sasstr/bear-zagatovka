@@ -3,22 +3,25 @@
 }
 
 .description__sort {
-  color: #444444;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
-  padding-left: 30px;
-  padding-bottom: 11px;
-  padding-top: 11px;
   position: relative;
+
+  padding: 11px 0 11px 30px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #444444;
 
   &::before {
     position: absolute;
-    content: "";
-    width: 260px;
-    height: 1px;
     top: 40px;
     left: 30px;
+
+    content: "";
+
+    width: 260px;
+    height: 1px;
+
     background-color: #444444;
     background-repeat: no-repeat;
     opacity: 0.2;
@@ -26,11 +29,10 @@
 }
 
 .description__value {
-  color: #444444;
-  font-size: 15px;
+  padding: 11px 0 11px 31px;
+
   font-weight: 400;
+  font-size: 15px;
   line-height: 20px;
-  padding-left: 31px;
-  padding-bottom: 11px;
-  padding-top: 11px;
+  color: #444444;
 }

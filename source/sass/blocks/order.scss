@@ -147,7 +147,6 @@
 .order__radio {
   position: relative;
 
-  &:checked ~ .order__label::before,
   &:checked ~ .order__label::before {
     position: absolute;
     content: "";
@@ -179,12 +178,7 @@
 .order__checkbox {
   position: relative;
 
-  &--white ~ .order__label--white::before,
-  &--gray ~ .order__label--gray::before,
-  &--tiffany ~ .order__label--tiffany::before,
-  &--black ~ .order__label--black::before,
-  &--pink ~ .order__label--pink::before,
-  &--orange ~ .order__label--orange::before {
+  & ~ .order__label::before, {
     position: absolute;
     content: "";
     top: 0;
@@ -195,12 +189,7 @@
     cursor: pointer;
   }
 
-  &--white:checked ~ .order__label--white::before,
-  &--gray:checked ~ .order__label--gray::before,
-  &--tiffany:checked ~ .order__label--tiffany::before,
-  &--black:checked ~ .order__label--black::before,
-  &--pink:checked ~ .order__label--pink::before,
-  &--orange:checked ~ .order__label--orange::before {
+  &:checked ~ .order__label::before, {
     position: absolute;
     content: "";
     top: 0;

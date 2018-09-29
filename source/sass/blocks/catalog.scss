@@ -22,7 +22,7 @@
 .catalog__list {
   padding: 112px 0 0 0;
 
-  @include reset-ul;
+  @include reset-list;
 }
 
 .catalog__item {
