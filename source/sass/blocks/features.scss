@@ -1,10 +1,11 @@
 .features__title {
-  color: #000000;
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 30px;
   margin-left: 30px;
   margin-bottom: 88px;
+
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
 }
 
 .features__list {
@@ -27,12 +28,14 @@
 
   &::before {
     position: absolute;
+    top: -60px;
+
     content: "";
+
     background-repeat: no-repeat;
   }
 
   &--ecology::before {
-    top: -60px;
     left: 38px;
     width: 32px;
     height: 37px;
@@ -40,7 +43,6 @@
   }
 
   &--nordic::before {
-    top: -60px;
     left: 30px;
     width: 47px;
     height: 27px;
@@ -48,7 +50,6 @@
   }
 
   &--more-likes::before {
-    top: -60px;
     left: 37px;
     width: 47px;
     height: 27px;
@@ -56,7 +57,6 @@
   }
 
   &--handmade::before {
-    top: -60px;
     left: 33px;
     width: 35px;
     height: 34px;
@@ -64,7 +64,6 @@
   }
 
   &--support::before {
-    top: -60px;
     left: 24px;
     width: 55px;
     height: 23px;
@@ -72,7 +71,6 @@
   }
 
   &--gift-packed::before {
-    top: -60px;
     left: 33px;
     width: 33px;
     height: 32px;
