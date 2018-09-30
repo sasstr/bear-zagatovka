@@ -1,12 +1,11 @@
 .reviews__title {
-  color: #000000;
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 30px;
-  margin: 0;
+  margin: 0 0 38px 29px;
   padding: 0;
-  margin-left: 29px;
-  margin-bottom: 38px;
+
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
 }
 
 .reviews__block {
@@ -15,45 +14,46 @@
 }
 
 .reviews__text {
-  color: #444444;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 30px;
-  margin: 0;
+  margin: 0 0 40px 30px;
   padding: 0;
-  margin-left: 30px;
   width: 255px;
-  margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
 }
 
 .reviews__author {
-  color: #000000;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 24px;
-  font-style: normal;
   display: block;
-  margin-bottom: 20px;
-  margin-left: 30px;
+  margin: 0 0 20px 30px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .reviews__contact {
-  font-style: normal;
+  margin: 0 0 36px 30px;
   display: block;
-  margin-left: 30px;
-  margin-bottom: 36px;
+
+  font-style: normal;
 }
 
 .reviews__btn-control {
+  display: inline-block;
   width: 130px;
   height: 52px;
-  border: 1px solid #ececec;
-  background-color: #ffffff;
   margin: 0;
   padding: 0;
-  display: inline-block;
+
+  border: 1px solid #ececec;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-size: 50px 26px;
+
   cursor: pointer;
 
   &--prev {
@@ -68,9 +68,9 @@
 }
 
 .reviews__controls {
-  margin-bottom: 70px;
+  margin: 0 0 70px 30px;
+
   font-size: 0;
-  margin-left: 30px;
 }
 
 .reviews__wrapper {
@@ -78,31 +78,34 @@
 
   &::before {
     position: absolute;
-    content: "";
     top: 95px;
     left: 0;
+
+    content: "";
+
     width: 320px;
     height: 6px;
+
     background-repeat: no-repeat;
     background-image: url("../img/bg-zigzag-line.svg");
   }
 }
 
 .reviews__button {
-  color: #444444;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 20px;
-  text-transform: uppercase;
+  position: relative;
+
+  display: block;
   width: 260px;
   min-height: 12px;
+  padding: 20px 0 20px 85px;
+  margin: 0 0 95px 30px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #444444;
+  text-transform: uppercase;
+
   border: 2px solid #444444;
   background-color: #ffffff;
-  padding-left: 85px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 30px;
-  display: block;
-  margin-bottom: 95px;
-  position: relative;
 }
