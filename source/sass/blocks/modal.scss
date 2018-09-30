@@ -34,9 +34,9 @@
 .modal__list {
   display: flex;
   justify-content: center;
-  margin-bottom: 31px;
-
-  @include reset-list;
+  padding: 0;
+  margin: 0 0 31px 0;
+  list-style: none;
 }
 
 .modal__size {
