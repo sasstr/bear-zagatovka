@@ -17,7 +17,8 @@
 }
 
 .contacts__data {
-  width: 250px;
+  display: flex;
+  width: 260px;
 
   font-weight: 400;
   font-size: 15px;
@@ -29,14 +30,29 @@
     padding: 0;
   }
 
-  &--border {
-    border-bottom: 1px solid #62d1ba;
-    padding-bottom: 3px;
-  }
-
   &--address {
     padding: 0;
     margin: 0 0 0 29px;
+  }
+}
+
+.contacts__data-info {
+  display: inline-block;
+
+  &--border {
+    border-bottom: 1px solid #62d1ba;
+    height: 30px;
+  }
+}
+
+.contacts__data-title {
+  display: inline-block;
+  min-height: 46px;
+  margin-right: 28px;
+
+  &--address {
+    min-height: 30px;
+    min-width: 46px;
   }
 }
 
@@ -49,18 +65,10 @@
 }
 
 .contacts__write-to-us {
-  display: block;
   width: 260px;
   min-height: 52px;
-  padding: 19px 0 20px 52px;
+  padding: 20px 0;
   margin: 0 0 30px 30px;
 
-  font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: #444444;
-
-  border: 2px solid #444444;
-  background-color: #ffffff;
 }
