@@ -135,9 +135,9 @@
 
 .order__form-add {
   padding: 18px 80px 0 17px;
+  margin-bottom: 18px;
   width: 260px;
   height: 142px;
-  resize: none;
 
   font-weight: 400;
   font-size: 17px;
@@ -147,7 +147,8 @@
 
   border: 2px solid #444444;
   background-color: #ffffff;
-  margin-bottom: 18px;
+
+  resize: none;
 }
 
 .order__radio {
